@@ -6,7 +6,26 @@ namespace SelectionStatements
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("What's your favorite school subject?");
+
+            // int answer = 4; //explicit typing
+            //string response; //explicit typing
+
+            //if (answer < 9)
+            //{
+            //    response = answer + " is less than nine";
+            //}
+            //else
+            //{
+            //    response = answer + “greater than or equal to nine”;
+
+            var answer = 4;
+                var response = (answer < 9) ? $"{answer} is less than nine " : $"{answer} is great thans or equal to nine";
+
+            Console.WriteLine(response);
+            }
+
+
+            /*Console.WriteLine("What's your favorite school subject?");
 
             var subject = Console.ReadLine();
 
@@ -25,7 +44,7 @@ namespace SelectionStatements
                     break;
                 default:
                     Console.WriteLine($"oh wow! I haven't take this subject before. {subject} sounds fun !");
-                    break;
+                    break;*/
 
 
 
@@ -65,6 +84,6 @@ namespace SelectionStatements
             
 
         }
-    }
+    
 
-}
+
