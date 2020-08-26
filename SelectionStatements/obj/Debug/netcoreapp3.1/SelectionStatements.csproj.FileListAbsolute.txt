@@ -9,3 +9,4 @@
 /Users/walterbrunopradovieira/repos/SelectionStatements/SelectionStatements/obj/Debug/netcoreapp3.1/SelectionStatements.dll
 /Users/walterbrunopradovieira/repos/SelectionStatements/SelectionStatements/obj/Debug/netcoreapp3.1/SelectionStatements.pdb
 /Users/walterbrunopradovieira/repos/SelectionStatements/SelectionStatements/obj/Debug/netcoreapp3.1/SelectionStatements.genruntimeconfig.cache
+/Users/walterbrunopradovieira/repos/SelectionStatements/SelectionStatements/obj/Debug/netcoreapp3.1/SelectionStatements.csprojAssemblyReference.cache

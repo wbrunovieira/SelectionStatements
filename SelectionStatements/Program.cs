@@ -6,8 +6,32 @@ namespace SelectionStatements
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("What's your favorite school subject?");
 
-            Console.WriteLine("Welcome to the number guessing game!");
+            var subject = Console.ReadLine();
+
+            switch (subject.ToLower())
+            {
+                case "math":
+                    Console.WriteLine("Math is a tough subject!");
+                    break;
+
+                case "science":
+                    Console.WriteLine("science is a tough subject!");
+                    break;
+
+                case "english":
+                    Console.WriteLine("English is a interesting subject");
+                    break;
+                default:
+                    Console.WriteLine($"oh wow! I haven't take this subject before. {subject} sounds fun !");
+                    break;
+
+
+
+            }
+
+            /*Console.WriteLine("Welcome to the number guessing game!");
             Console.WriteLine("See if you can guess the correct number!");
             Console.WriteLine("What is the upper limit for the range of the number?");
 
@@ -37,7 +61,7 @@ namespace SelectionStatements
                 {
                     Console.WriteLine("Correct!");
                 }
-            } while (guess != number);
+            } while (guess != number);*/
             
 
         }
